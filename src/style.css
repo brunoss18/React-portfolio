@@ -252,5 +252,8 @@ ol>li {
     .main>.buttons>button {
         padding: 10px
     }
+    .textAlignLeft>h2{
+        text-align: center;
+    }
    
 }
