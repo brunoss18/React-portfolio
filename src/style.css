@@ -99,18 +99,7 @@ ol>li {
     /* Ajuste a opacidade conforme necessário */
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
 
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 999;
-}
 
 .sectionAbout {
     width: 100%;
@@ -142,23 +131,23 @@ ol>li {
     align-items: center;
     width: 100%; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
 .card {
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 10px;
     width: fit-content;
     padding: 1rem;
-    width: 15rem;
+    width: 20rem;
     margin: 1rem;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card>img {
-    width: 15rem;
-    border-radius: 1rem;
+    width: 20rem;
+    border-radius: 10px;
 }
 
 .tittleCard {
@@ -168,7 +157,7 @@ ol>li {
     /* background-color: #f3e8ff; */
     width: fit-content;
     /* padding: 0.2rem; */
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: left;
     margin-top: .5rem;
 }
@@ -190,7 +179,7 @@ ol>li {
 .stack {
     /* margin: 0 1rem 0 0 ; */
     border: 1px solid #9232ea;
-    border-radius: 1rem;
+    border-radius: 10px;
     padding: .2rem;
     font-size: .9rem;
     font-weight: 450;
@@ -206,10 +195,9 @@ ol>li {
 }
 
 .allprojectsButton {
-    background-color: white;
-    /* Cor de fundo com transparência */
+    background-color: #842dbc;
     border: none;
-    color: #842dbc;
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
     display: flex;
@@ -220,8 +208,7 @@ ol>li {
 }
 .allprojectsButton:hover{
     
-   color: white;
-    background-color: rgba(134, 46, 189, 0.548) ;
+    background-color: rgba(255, 255, 255, 0.5);
 }
     
 

@@ -8,21 +8,8 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="container">
-      {/* <Navbar/> */}
-      {/* <nav className='navbar'>
-        <span className='nameLogo'>Bruno Soares</span>
-          <ol>
-            <li>
-              About me
-              </li>
-              <li>
-              Projects
-              </li>
-              <li>
-            Hire me
-              </li>
-          </ol>
-      </nav>  */}
+      <Navbar/>
+     
 
      <main className='main'>
         <div className='conteiner'>

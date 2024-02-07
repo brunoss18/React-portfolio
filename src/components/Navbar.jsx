@@ -1,33 +1,37 @@
 import React, { useState } from 'react';
-import './Navbar.css'; // Importe os estilos CSS do componente
+import './Navbar.css'; // Estilos CSS para a barra de navegação
 
-function Navbar() {
-  // Defina um estado para controlar a exibição do menu hambúrguer em dispositivos móveis
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
 
-  // Função para alternar a visibilidade do menu hambúrguer
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
   };
 
   return (
-    <nav className='navbar'>
-      <span className='nameLogo'>Bruno Soares</span>
-      <div className={`menu ${isMobileMenuOpen ? 'open' : ''}`}>
-        <ol>
-          <li>About me</li>
-          <li>Projects</li>
-          <li>Hire me</li>
-        </ol>
+    <div className='conteiner'>
+    <nav className="navbar">
+      <div className="navbar-logo">
+        <p>Bruno Soares</p>
       </div>
-      {/* Botão do menu hambúrguer para dispositivos móveis */}
-      <div className='hamburger-menu' onClick={toggleMobileMenu}>
-        <div className='line'></div>
-        <div className='line'></div>
-        <div className='line'></div>
+      <div className='navbar-buttons' >
+    <button className="nav-button">About me</button>
+    <button className="nav-button">Projects</button>
+    <button className="nav-button">Hire me</button>
+  </div>
+      <div className="hamburger-menu" onClick={toggleMenu}>
+        <div className={`line ${showMenu ? 'open' : ''}`}></div>
+        <div className={`line ${showMenu ? 'open' : ''}`}></div>
+        <div className={`line ${showMenu ? 'open' : ''}`}></div>
       </div>
     </nav>
+    <div className={`navbar-links ${showMenu ? 'active' : ''}`}>
+    <button className="nav-button">About me</button>
+    <button className="nav-button">Projects</button>
+    <button className="nav-button">Hire me</button>
+  </div>
+  </div>
   );
-}
+};
 
 export default Navbar;
