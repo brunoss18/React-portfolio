@@ -25,8 +25,9 @@ function App() {
             remaining essentially unchanged. It was popularised
             </p>
             
-          </div>
-              <div className='buttons'>
+          </div>   
+        </div>
+        <div className='buttons'>
                   <button>Linkedin <RiLinkedinBoxFill /></button>
                   <button>Github <TbBrandGithubFilled /></button>
                   <button>
@@ -41,8 +42,6 @@ function App() {
                     </Link>
                   </button> 
               </div>
-        </div>
-        
      </main>
      <Element name="about" className="">
         <section className="sectionAbout">      
