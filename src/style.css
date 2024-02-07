@@ -7,6 +7,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -72,7 +73,7 @@ ol>li {
     text-align: left;
 }
 
-.main>.conteiner>.buttons {
+.main>.buttons {
     margin-top: 1rem;
     display: flex;
     width: 29rem;
@@ -80,7 +81,7 @@ ol>li {
 
 }
 
-.main>.conteiner>.buttons>button {
+.main>.buttons>button {
     background-color: #842dbc;
     /* Cor de fundo com transparência */
     border: none;
@@ -206,11 +207,12 @@ ol>li {
     cursor: pointer;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
-.allprojectsButton:hover{
-    
+
+.allprojectsButton:hover {
+
     background-color: rgba(255, 255, 255, 0.5);
 }
-    
+
 
 
 @media (max-width: 768px) {
@@ -244,4 +246,11 @@ ol>li {
         width: 100%;
         height: 100%
     }
+    .main>.buttons{
+       width: 23rem;
+    }
+    .main>.buttons>button {
+        padding: 10px
+    }
+   
 }

@@ -3,12 +3,12 @@ import { RiLinkedinBoxFill } from "react-icons/ri";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link, Element } from 'react-scroll';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="container">
-      {/* <Navbar/> */}
+      <Navbar/>
      
 
      <main className='main'>
