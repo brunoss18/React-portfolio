@@ -1,0 +1,67 @@
+.sectionAbout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    background: linear-gradient(to right, #da47f0 0%, #9232ea 100%);
+
+}
+
+.textAlignLeft {
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.textAlignLeft>h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+
+.allprojects {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.allprojectsButton {
+    background-color: #842dbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.allprojectsButton:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+@media (max-width: 768px) {
+
+    .dNone {
+        display: none !important;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionAbout {
+        width: 100%;
+        height: 100%
+    }
+  
+    .textAlignLeft>h2{
+        text-align: center;
+    }
+   
+}

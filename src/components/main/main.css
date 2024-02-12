@@ -1,0 +1,97 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background: linear-gradient(to right, #da47f0 0%, #9232ea 100%);
+}
+
+.main>.conteiner {
+    width: 29rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main>.conteiner>.previousText {
+
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+    color: #9232ea;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra moderna */
+    background-color: white;
+
+
+}
+
+.main>.conteiner>.previousText>p.whois {
+    font-size: 1rem;
+    background-color: #f3e8ff;
+    color: #9232ea;
+    font-weight: 400;
+    margin-bottom: 2px;
+    width: fit-content;
+    padding: .2rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.main>.buttons {
+    margin-top: 1rem;
+    display: flex;
+    width: 29rem;
+    justify-content: space-evenly;
+
+}
+
+.main>.buttons>button {
+    background-color: #842dbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main>.conteiner>.buttons>button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+   
+    .main>.conteiner {
+        width: 20rem;
+    }
+
+    .main>.conteiner>.buttons>button {
+        font-size: 14px;
+    }
+
+    .main>.conteiner>.buttons {
+        justify-content: center;
+    }
+
+    .main>.conteiner>.buttons>button {
+        margin: .2rem;
+    }
+
+    .main>.buttons{
+       width: 23rem;
+    }
+    .main>.buttons>button {
+        padding: 10px
+    }
+  
+}
