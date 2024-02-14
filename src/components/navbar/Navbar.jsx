@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Estilos CSS para a barra de navegação
+import { Link } from 'react-router-dom'; // Importe o Link
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -12,7 +13,10 @@ const Navbar = () => {
     <div className='conteiner'>
     <nav className="navbar">
       <div className="navbar-logo">
-        <p>Bruno Soares</p>
+      <Link to="/"> 
+      <p>Bruno Soares</p>
+          </Link>
+       
       </div>
       <div className='navbar-buttons' >
     <button className="nav-button">About me</button>

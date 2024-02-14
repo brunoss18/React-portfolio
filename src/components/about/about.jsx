@@ -1,8 +1,11 @@
 import React from 'react';
-import { Link, Element } from 'react-scroll';
-import Cards  from './cards-conteiner/cards';
-import './about.css'
+import { Element } from 'react-scroll';
+import Cards from './cards-conteiner/cards';
+import { Link } from 'react-router-dom'; // Importe o Link
+import './about.css';
+
 function Main() {
+
   return (
     <Element name="about" className="">
         <section className="sectionAbout">      
@@ -15,9 +18,12 @@ function Main() {
 
         
             <div className='allprojects'>
-              <button className='allprojectsButton'>
-                See more 
-              </button>
+            
+            <Link to="/moreprojects" className='allprojectsButton'> {/* Use o Link */}
+            See more
+          </Link>
+            
+            
             </div> 
         </section>
       </Element>

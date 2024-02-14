@@ -2,11 +2,19 @@ import React from 'react';
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
-import { Link, Element } from 'react-scroll';
-import './main.css'
+import { Link } from 'react-scroll';
+import './main.css';
+import Navbar from '../navbar/Navbar.jsx';
+import About from '../about/about';
+
+
+
 function Main() {
   return (
+    <div className='conteiner'>
+      <Navbar />
     <main className='main'>
+      
         <div className='conteiner'>
           <div className='previousText'>
             <p className='whois'>
@@ -37,7 +45,10 @@ function Main() {
                     </Link>
                   </button> 
               </div>
+              
      </main>
+     <About />
+     </div>
   );
 }
 
