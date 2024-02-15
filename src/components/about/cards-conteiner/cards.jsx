@@ -74,9 +74,9 @@ const Cards = () => {
       </div>
       <div className="cards">
         {cards.map(card => (
-          <div key={card.id} className="card">
+          <div key={card.id}  id={`cardId${card.id}`} className="card">
             <img src={card.image} alt={`Imagem do ${card.name}`} />
-           
+            
             <p className='tittleCard'>{card.name}</p>
             <p className='descriptionCard'>
               {card.desc}

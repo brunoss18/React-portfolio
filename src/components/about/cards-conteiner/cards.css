@@ -70,3 +70,25 @@
     font-weight: 450;
     color: #9232ea;
 }
+
+
+
+@media (max-width: 768px) {
+    #cardId3,#cardId4,#cardId5,#cardId6{
+        display: none;
+    }
+    .cards {
+        /* height: 100vh;
+        width: 100vw; */
+    }  
+    .card{
+        width: 18rem !important;
+    }
+    .card>img {
+        width: 18rem !important;
+    }
+    .ButtonsAlignLeft {
+        
+        justify-content: center;
+    }
+}

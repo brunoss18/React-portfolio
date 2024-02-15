@@ -2,6 +2,7 @@ import React from 'react';
 // import { Element } from 'react-scroll';
 import Cards from './moreCards/cards.jsx';
 import Navbar from '../navbar/Navbar.jsx';
+import { Link } from 'react-router-dom'; // Importe o Link
 
 function MoreProjects(){
     return (
@@ -18,9 +19,10 @@ function MoreProjects(){
         
             <div className='allprojects'>
             
-            {/* <button className='allprojectsButton'>
-                See more 
-              </button> */}
+           
+          <Link to="/" className='seelessButton'> {/* Use o Link */}
+            See Less
+          </Link>
             
             
             </div> 

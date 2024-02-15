@@ -25,7 +25,18 @@
     justify-content: center;
     margin-top: 1rem;
 }
-
+.seelessButton{
+    background-color: #842dbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); 
+}
 .allprojectsButton {
     background-color: #842dbc;
     border: none;
