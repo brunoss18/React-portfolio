@@ -2,13 +2,13 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import Cards from './cards-conteiner/cards';
 import { Link } from 'react-router-dom'; // Importe o Link
-import './about.css';
+import './projects.css';
 
 function Main() {
 
   return (
-    <Element name="about" className="">
-        <section className="sectionAbout">      
+    <Element name="projects" className="">
+        <section className="sectionProjects">      
           <div className='textAlignLeft'>
               <h2 className=''>
                 My Projects

@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-scroll';
 import './main.css';
 import Navbar from '../navbar/Navbar.jsx';
-import About from '../about/about';
+import About from '../sectionProjects/projects.jsx';
 
 
 

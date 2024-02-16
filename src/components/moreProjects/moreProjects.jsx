@@ -8,7 +8,7 @@ function MoreProjects(){
     return (
       <div className='conteiner'>
         <Navbar />
-        <section className="sectionAbout">      
+        <section className="sectionProjects">      
         <div style={{ padding: '5rem 5rem 2rem 5rem' }} className='textAlignLeft'>
               <h2 className=''>
                 My Projects

@@ -59,7 +59,7 @@ const Cards = () => {
     desc: '',
     date: new Date('2022-12-18'),
     image: 'https://i.ibb.co/zH5WnGJ/nft.png',
-    stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+    stacks: ['JavaSscript','HTML', 'CSS', ] 
  },
  {
   id: 8,
@@ -67,7 +67,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2022-12-12'),
   image: 'https://i.ibb.co/L5Qgwms/myshoes.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['JavaSscript','HTML', 'CSS', ] 
 },
 {
   id: 9,
@@ -75,7 +75,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2022-12-05'),
   image: 'https://i.ibb.co/xY0JYnx/spaceflixv2react.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['API','React','JavaSscript','HTML', 'CSS' ] 
 },
 {
   id: 10,
@@ -83,7 +83,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2022-11-25'),
   image: 'https://i.ibb.co/8B7LHpC/netflixclone.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['API','React','JavaSscript','HTML', 'CSS' ] 
 },
 {
   id: 11,
@@ -91,7 +91,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2022-10-16'),
   image: 'https://i.ibb.co/Hdgk3z0/crud.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['SQLITE','JavaScript','HTML', 'CSS', ] 
 },
 {
   id: 12,
@@ -99,7 +99,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2022-06-05'),
   image: 'https://i.ibb.co/Bcp0sp9/mariogame.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['JavaSscript','HTML', 'CSS', ] 
 },
 {
   id: 13,
@@ -107,7 +107,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2022-06-04'),
   image: 'https://i.ibb.co/cQQ3tq7/spaceflixv1.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['JavaSscript','HTML', 'CSS', ] 
 },
 {
   id: 14,
@@ -115,7 +115,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2021-09-20'),
   image: 'https://i.ibb.co/H4HQXCH/snakegame.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['JavaSscript','HTML', 'CSS', ] 
 },
 {
   id: 15,
@@ -123,7 +123,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2021-09-13'),
   image: 'https://i.ibb.co/kD9mNL0/memorygame.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['JavaSscript','HTML', 'CSS', ] 
 },
 {
   id: 16,
@@ -131,7 +131,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2021-09-12'),
   image: 'https://i.ibb.co/xG4067f/instagramclone.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['HTML', 'CSS' ] 
 },
 {
   id: 17,
@@ -139,7 +139,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2021-07-23'),
   image: 'https://i.ibb.co/Pg3RShg/strangers.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['Node','Express', 'Sqlite','JavaSscript','HTML', 'CSS', ] 
 },
 {
   id: 18,
@@ -147,7 +147,7 @@ const Cards = () => {
   desc: '',
   date: new Date('2021-07-20'),
   image: 'https://i.ibb.co/MGzNHC8/projetocenturion.png',
-  stacks: ['React','JavaSscript','HTML', 'CSS', ] 
+  stacks: ['Bootstrap','HTML', 'CSS', ] 
 },
 
   ]);
