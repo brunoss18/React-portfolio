@@ -1,10 +1,11 @@
 .ButtonsAlignLeft {
-    padding: 0rem 5rem 2rem 5rem;
+    padding: 0rem !important;
     display: flex;
-    
+    width: 50vw;
+    justify-content: flex-end;
 }
 .ButtonsAlignLeft > button{
-    margin: 0.5rem 0.5rem 0.5rem 0rem;
+    /* margin: 0.5rem 0.5rem 0.5rem 0rem; */
     background-color: #842dbc;
     border: none;
     color: white;

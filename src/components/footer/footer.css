@@ -1,0 +1,17 @@
+footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 5rem;
+ 
+   color: white;
+   background: linear-gradient(to right, #da47f0 0%, #9232ea 100%);
+
+}
+
+p{
+    font-weight: 400;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+}

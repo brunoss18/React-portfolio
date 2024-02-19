@@ -3,13 +3,15 @@ import { RiLinkedinBoxFill } from "react-icons/ri";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-scroll';
+
 import './main.css';
 import Navbar from '../navbar/Navbar.jsx';
-import About from '../sectionProjects/projects.jsx';
-
-
+import Projects from '../sectionProjects/projects.jsx';
+import About from '../sectionAbout/about.jsx';
+import Footer from '../footer/footer.jsx';
 
 function Main() {
+  
   return (
     <div className='conteiner'>
       <Navbar />
@@ -30,13 +32,14 @@ function Main() {
             
           </div>   
         </div>
+        
         <div className='buttons'>
                   <button>Linkedin <RiLinkedinBoxFill /></button>
                   <button>Github <TbBrandGithubFilled /></button>
                   <button>
                     <Link
                     activeClass="active"
-                    to="about"
+                    to="sectionProjects"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -47,8 +50,13 @@ function Main() {
               </div>
               
      </main>
-     <About />
+   
+    
+     <Projects/>
+    <About/>
+  <Footer/>
      </div>
+ 
   );
 }
 

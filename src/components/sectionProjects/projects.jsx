@@ -1,19 +1,14 @@
 import React from 'react';
-import { Element } from 'react-scroll';
 import Cards from './cards-conteiner/cards';
 import { Link } from 'react-router-dom'; // Importe o Link
 import './projects.css';
 
-function Main() {
+function Projects() {
 
   return (
-    <Element name="projects" className="">
-        <section className="sectionProjects">      
-          <div className='textAlignLeft'>
-              <h2 className=''>
-                My Projects
-              </h2>
-            </div> 
+   
+        <section className="sectionProjects" id='sectionProjects'>      
+          
             <Cards/>
 
         
@@ -26,8 +21,8 @@ function Main() {
             
             </div> 
         </section>
-      </Element>
+       
   );
 }
 
-export default Main;
+export default Projects;

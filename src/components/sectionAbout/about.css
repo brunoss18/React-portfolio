@@ -1,0 +1,147 @@
+
+.sectionAbout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    background: linear-gradient(to right, #da47f0 0%, #9232ea 100%);
+
+
+}
+.sectionAbout > div{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+.aboutAlign {
+    /* padding-left: 5rem; */
+    width: 30vw;
+}
+
+.aboutAlign>h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.textAlign{
+    width: 50vw;
+}
+.textAlign>p{
+    font-size: 1.5rem;
+    color: white;
+   
+}
+.allprojects {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.allprojectsButton {
+    background-color: #842dbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.allprojectsButton:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.seelessButton{
+    background-color: #842dbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+a{
+    text-decoration: none;
+}
+
+.seelessButton:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.aboutButton{
+    background-color: #842dbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.aboutButton:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.alignButton{
+    margin-top: 1rem;
+}
+@media (max-width: 768px) {
+    .alignButton >button{
+        width: fit-content;
+    }
+    .alignButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutAlign >h2 {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    .aboutAlign {
+        padding-left: 0rem;
+        width: 100vw;
+    }
+    .textAlign{
+        width: 100vw;
+    }
+    .textAlign>p{
+        font-size: .9rem;
+        color: white;
+        margin: 1rem;
+    }
+    .sectionAbout > div{
+       
+        
+       flex-direction: column;
+      
+    
+    }
+
+    .dNone {
+        display: none !important;
+    }
+  
+    .sectionAbout {
+        width: 100%;
+        height: 100%
+    }
+  
+    .textAlignLeft>h2{
+        text-align: center;
+    }
+   
+}

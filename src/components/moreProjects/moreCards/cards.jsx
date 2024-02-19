@@ -15,7 +15,7 @@ const Cards = () => {
     },
     {
       id: 2,
-      name: 'Pdf Contract Generator',
+      name: 'PDF Contract Generator',
       desc: '',
       date: new Date('2024-01-29'),
       image: 'https://uploaddeimagens.com.br/images/004/739/312/original/pdfcontractgenerator.png?1707838484',

@@ -68,10 +68,16 @@ const Cards = () => {
 
   return (
     <div>
-      <div className="ButtonsAlignLeft">
+      <div className='filter'>
+              <h2 className=''>
+                My Projects
+              </h2>
+              <div className="ButtonsAlignLeft">
         <button onClick={handleSortByNewest}>Latest</button>
         <button onClick={handleSortByOldest}>Oldest</button>
       </div>
+            </div> 
+      
       <div className="cards">
         {cards.map(card => (
           <div key={card.id}  id={`cardId${card.id}`} className="card">
