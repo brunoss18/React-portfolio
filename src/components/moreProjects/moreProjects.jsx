@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Element } from 'react-scroll';
-import Cards from './moreCards/cards.jsx';
+import Cards from './cards.jsx';
 import Navbar from '../navbar/Navbar.jsx';
 import { Link } from 'react-router-dom'; // Importe o Link
 
@@ -10,9 +10,7 @@ function MoreProjects(){
         <Navbar />
         <section className="sectionProjects">      
         <div style={{ padding: '5rem 5rem 2rem 5rem' }} className='textAlignLeft'>
-              <h2 className=''>
-                My Projects
-              </h2>
+             
             </div> 
             <Cards/>
 

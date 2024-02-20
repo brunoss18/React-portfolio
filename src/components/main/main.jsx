@@ -9,6 +9,7 @@ import Navbar from '../navbar/Navbar.jsx';
 import Projects from '../sectionProjects/projects.jsx';
 import About from '../sectionAbout/about.jsx';
 import Footer from '../footer/footer.jsx';
+import Skills from '../sectionSkills/sectionSkills.jsx';
 
 function Main() {
   
@@ -24,19 +25,22 @@ function Main() {
             </p>
          
             <p>
-            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen
-            book. It has survived not only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised
+            The synergy of creativity, innovation, and technology.
             </p>
             
           </div>   
         </div>
         
         <div className='buttons'>
-                  <button>Linkedin <RiLinkedinBoxFill /></button>
-                  <button>Github <TbBrandGithubFilled /></button>
-                  <button>
+          
+                  <a href="https://www.linkedin.com/in/brunoss18/" target="_blank" rel="noopener noreferrer" className="button">
+                    Linkedin <RiLinkedinBoxFill />
+                  </a>
+                  <a href="https://github.com/brunoss18" target="_blank" rel="noopener noreferrer" className="button">
+                  Github <TbBrandGithubFilled />
+                  </a>
+                 
+                  <button className="button">
                     <Link
                     activeClass="active"
                     to="sectionProjects"
@@ -53,6 +57,7 @@ function Main() {
    
     
      <Projects/>
+     <Skills/>
     <About/>
   <Footer/>
      </div>

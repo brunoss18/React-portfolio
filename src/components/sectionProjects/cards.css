@@ -1,7 +1,8 @@
 .ButtonsAlignLeft {
-    padding: 0rem 5rem 2rem 5rem;
+    padding: 0rem !important;
     display: flex;
-    
+    width: 50vw;
+    justify-content: flex-end;
 }
 .ButtonsAlignLeft > button{
     margin: 0.5rem 0.5rem 0.5rem 0rem;
@@ -33,7 +34,7 @@
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.card>img {
+.card> div >img {
     width: 20rem;
     border-radius: 10px;
 }
@@ -69,4 +70,60 @@
     font-size: .9rem;
     font-weight: 450;
     color: #9232ea;
+}
+
+.ButtonsAlignLeft > button:hover,
+.seelessButton > button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.divImg{
+    position: relative;
+}
+
+.divEye{
+ 
+    position: absolute;
+    width: 100%;
+    
+    color: hsl(292deg 85% 61%);
+  
+    top: 0rem;
+    z-index: 10;
+    display: flex;
+    height: 9.5rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    cursor: pointer;
+  
+}
+.divEye:hover {
+    opacity: 0.7; /* Define a opacidade quando o mouse estiver sobre a div */
+  }
+  .padding-1{
+    padding: 1rem !important;
+}
+@media (max-width: 768px) {
+    .divEye{
+        height: 8.5rem;
+    }
+    #cardId3,#cardId4,#cardId5,#cardId6{
+        display: none;
+    }
+    .cards {
+        /* height: 100vh;
+        width: 100vw; */
+    }  
+    .card{
+        width: 18rem !important;
+    }
+    .card> div > img {
+        width: 18rem !important;
+    }
+    .ButtonsAlignLeft {
+        
+        justify-content: center;
+    }
 }
