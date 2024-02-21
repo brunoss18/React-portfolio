@@ -89,7 +89,7 @@ function Skills() {
                       />
                   
                   <div className='alignButton'>
-                    <a href="https://wa.me/5511996940393" target="_blank" className='aboutButton'>
+                    <a href="https://wa.me/5511996940393" target="_blank" className='skillsButton'>
                     Shall we have a coffee?<PiCoffeeFill />
                     </a >
                   </div> 

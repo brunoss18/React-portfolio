@@ -9,8 +9,8 @@ function Footer() {
    
          <footer>
           <p>Made with &nbsp;<FaHeart />&nbsp; by Bruno Soares © 2024</p>
-          <p><RiLinkedinBoxFill/> </p>
-          <p> <TbBrandGithubFilled/></p>
+          <a target='_blank' href='https://www.linkedin.com/in/brunoss18/'><RiLinkedinBoxFill/> </a>
+          <a target='_blank' href='https://github.com/brunoss18'> <TbBrandGithubFilled/></a>
          </footer>
         
                 
