@@ -33,7 +33,7 @@ const Cards = () => {
       date: new Date('2024-02-02'),
       image: reactPort,
       stacks: ['React','JavaSscript','HTML', 'CSS', ],
-      link: 'https://brunoss.netlify.app/' 
+      link: 'https://brunoss18.vercel.app/' 
    },
    {
      id: 2,

@@ -17,6 +17,7 @@
     flex-direction: column;
     border-radius: 5px;
     height: fit-content;
+    margin: 1rem;
 }
 .wrapper {
     border-radius: 5px;

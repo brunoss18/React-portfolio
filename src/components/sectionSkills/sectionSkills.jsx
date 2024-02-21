@@ -88,12 +88,13 @@ function Skills() {
                         customLabel="PHP" 
                       />
                   
-                    <div className='alignButton'>
+                  <div className='alignButton'>
                     <a href="https://wa.me/5511996940393" target="_blank" className='aboutButton'>
                     Shall we have a coffee?<PiCoffeeFill />
                     </a >
-                 </div>
                   </div> 
+                 </div>
+                 
 
             </div>     
                 
