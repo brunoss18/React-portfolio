@@ -63,6 +63,14 @@ function Skills() {
                         labelClassName="label"
                         customLabel="ReactJS" 
                       />
+                       <ProgressBar
+                        completed={50}
+                        className="wrapper"
+                        barContainerClassName="container"
+                        completedClassName="barCompletedTypeScript"
+                        labelClassName="label"
+                        customLabel="TypeScript" 
+                      />
                       <ProgressBar
                         completed={50}
                         className="wrapper"

@@ -47,7 +47,8 @@
   }
   .barCompletedJquery,
   .barCompletedWordPress,
-  .barCompletedPHP
+  .barCompletedPHP,
+  .barCompletedTypeScript
   {
     background-color: #842dbc;
     width: 50%;
